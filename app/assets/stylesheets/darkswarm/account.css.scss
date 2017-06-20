@@ -1,14 +1,16 @@
 @import "branding";
 @import "mixins";
 
-.account-summary {
-  color: #4a4a4a;
-}
-
-
 .orders {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  @include sidepaddingSm;
+
+  @include panepadding;
+
+  padding-top: 10px;
+
+  h3 {
+    padding-top: 2em;
+  }
 
   a {
     color: $clr-brick;
@@ -22,12 +24,6 @@
     display: block;
     width: 80px;
     height: auto;
-  }
-
-  .active_table_row {
-    h3 {
-      margin-top: 0.5em;
-    }
   }
 
   i.ofn-i_059-producer, i.ofn-i_060-producer-reversed {
@@ -65,7 +61,6 @@
   .transaction-group {}
 
   table {
-    width: 100%;
     border-radius: 0.5em 0.5em 0 0;
 
     tr:nth-of-type(even) {

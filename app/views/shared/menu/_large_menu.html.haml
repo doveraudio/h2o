@@ -19,11 +19,11 @@
             = t 'label_producers'
       - if feature? :connect_learn_homepage
         %li
-          %a{href: "https://openfoodnetwork.org/au/connect/"}
+          %a{href: main_app.connect_path}
             %span.nav-primary
               = t 'label_connect'
         %li
-          %a{href: "https://openfoodnetwork.org/au/learn/"}
+          %a{href: main_app.connect_learn}
             %span.nav-primary
               = t 'label_learn'
       - else
@@ -32,7 +32,7 @@
             %span.nav-primary
               = t 'label_groups'
         %li
-          %a{href: ContentConfig.footer_about_url}
+          %a{href: main_app.sell_path}
             %span.nav-primary
               = t 'label_about'
 
