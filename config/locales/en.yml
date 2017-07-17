@@ -673,7 +673,7 @@ en:
   footer_legal_tos: "Terms and conditions"
   footer_legal_visit: "Find us on"
   footer_legal_text_html: "Fresh Harvest Crate  is a free and open source software platform. Our content is licensed with %{content_license} and our code with %{code_license}."
-
+  footer_legal_copyright: "© 2016 Fresh Harvest Crate All Rights Reserved | We are a brand of StoicEdge, a Maine based Company"
   home_shop: "Shop Now"
   
   home_buyer: "I am a buyer"
